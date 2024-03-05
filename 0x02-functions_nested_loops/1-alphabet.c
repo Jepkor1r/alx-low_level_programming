@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
-  * print_alphabet() - prints alphabet in lower case
+  * print_alphabet - function print_alphabet
+  *
+  * Description: prints alphabet in lower case followed by new line
+  * @void: no parameter taken
   *
   * Return: 0
   */

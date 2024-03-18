@@ -1,0 +1,3 @@
+git add .
+git commit -m"Pointers, arays and strings"
+git push

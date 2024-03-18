@@ -2,11 +2,13 @@
 
 /**
   * reset_to_98 - pointer is taken  int as parameter and updates it to 98
-  * @int *n: derefencer
+  * @n: derefencer
   *
+  * Return: n
   */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-	int *n = 98;
+	*n = 98;
+	_putchar(*n);
 }

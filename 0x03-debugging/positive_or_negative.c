@@ -9,8 +9,6 @@
 
 int positive_or_negative(int num)
 {
-	num = num / 2;
-
 	if (num > 0)
 	{
 		printf("%d is positive\n", num);

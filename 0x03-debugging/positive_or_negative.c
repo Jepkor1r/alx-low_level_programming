@@ -7,7 +7,7 @@
   * Return: 0
   */
 
-int positive_or_negative(int num)
+void positive_or_negative(int num)
 {
 	if (num > 0)
 	{

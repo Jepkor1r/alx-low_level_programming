@@ -4,15 +4,17 @@
   * isupper - checks for uppercase character
   * @c: character to check
   *
-  * Return: 0
+  * Return: 1
   */
 
 int _isupper(int c)
 {
-	for (c = A; C >= Z; A++)
+	if (c == 'A')
 	{
-		_putchar('c');
+		return (1);
 	}
-	_putchar('\n');
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
